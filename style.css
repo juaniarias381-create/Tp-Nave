@@ -458,7 +458,10 @@ esta parte es el footer
 }
 
 @media screen and (min-width: 768px) {
-    
+    .resolucion{
+        max-width: 768px;
+        margin: auto;
+    }
 }
 
 
