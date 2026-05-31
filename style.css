@@ -429,13 +429,15 @@ esta parte es el footer
         
     }
     .nave-banner{
-        width: 768px;
+        width: 700px;
+        height: 150px;
+        padding: 22px 40px;
     }
     .boton-conocer{
         margin: 0px;
     }
     .parrafo-banner{
-        width: 450px;
+        width: 400px;
     }
     .titulo-cobros{
         width: 768px;
@@ -453,11 +455,14 @@ esta parte es el footer
     .footer{
         width: 768px;
     }
-    .body{
-        overflow-x: hidden;
-        max-width: 768px;
-    }
 }
+
+@media screen and (min-width: 768px) {
+    
+}
+
+
+
 
 
 @media screen and (min-width: 768px) {
