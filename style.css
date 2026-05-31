@@ -21,8 +21,8 @@
 
 body{
     background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-    
+    max-width: 2000px;
+    margin: auto;
 }
 
 
@@ -454,9 +454,8 @@ esta parte es el footer
         width: 768px;
     }
     .body{
-        margin: auto;
-        padding: auto;
-        justify-content: center;
+        overflow-x: hidden;
+        max-width: 768px;
     }
 }
 
