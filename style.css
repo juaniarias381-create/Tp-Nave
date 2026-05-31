@@ -458,7 +458,8 @@ esta parte es el footer
         gap: 30px;
     }
     .footer-logo{
-        width: 768px;
+        max-width: 768px;
+        width: 100%;
     }
     .footer{
         max-width: 768px;
