@@ -495,7 +495,7 @@ esta parte es el footer
 
 @media screen and (min-width: 1440px) {
     .body{
-        max-width: 2000px;
+        overflow-x: hidden;
     margin: auto;
     }
 }
