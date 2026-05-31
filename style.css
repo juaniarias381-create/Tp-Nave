@@ -1,0 +1,492 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    --text-color-primary: #2B2B2B;
+    --text-color-secondary: #6A6A6A;
+    --primary-color: #652bdf;
+    --secondary-color: rgb(240,234,252);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.header-logo-movile{
+    display: none;
+    width: 41px;
+    height: 40px;
+    
+    
+}
+
+
+.menu-mobile{
+    display: none;
+}
+
+
+.Nave-Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 73px;
+    background-color: #fff;
+    border-bottom: 1px solid #e7eaed;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 16px;
+    z-index: 9999;
+}
+
+.header-section{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.nav-cobros{
+
+    width: 97px;
+    height: 11px;
+    
+}
+.nav-beneficios{
+    
+    width: 120px;
+    height: 11px;
+}
+
+
+
+
+.nav-funtion{
+    margin-left: 257px;
+}
+
+
+.nave-beneficios{
+    border-right: 1px solid black ;
+    padding-right: 15px;
+
+}
+
+
+.boton-espacio{
+    border-radius: 100px;
+    border-color: #652BDF;
+    color: #652BDF;
+    height: 37px;
+    width: 146px;
+    font-weight:600;
+}
+
+.boton-espacio:hover{
+    background-color: #8479a260;
+    transition: 300ms ease-in-out;
+}
+
+.boton-entra{
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    background-color: #652BDF;
+    color: white;
+    height: 37px;
+    width: 146px;
+    font-weight:600;
+}
+
+.boton-entra:hover{
+    background-color: #8479a260;
+    transition: 300ms ease-in-out;
+    color: #652BDF;
+
+}
+
+
+
+
+/* 
+prueba de Te damos la bienvenida al vuelo de tu negocio
+*/
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.35px;
+    color: var(--text-color-primary);
+    margin-bottom: 32px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    color: var(--text-color-primary);
+    font-weight: 600;
+    letter-spacing: -0.9px;
+}
+
+.bienvenida{
+    padding: 32px 24px;
+    background-color: #FCFBFF ;
+}
+
+.tarjetas__caracteristicas{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bienvenida__tarjeta{
+    padding: 24px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    transition: 300ms ease-in-out;
+}
+
+.bienvenida__tarjeta:hover{
+    background-color: #8479a200;
+    transform: translateY(-8px);
+    transition: 300ms ease-in-out;
+}
+
+.bienvenida__icono{
+    width: 62px;
+    height: 62px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida__icono i{
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.bienvenida__parrafo{
+    color: var(--text-color-secondary);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+/* 
+prueba de banner 
+*/
+
+.nave-banner{
+    display: flex;
+    align-items: center;
+    background-color: #e2d2ff;
+    border-radius: 30px;
+    gap: 32px;
+    padding: 32px 40px;
+    width: 886.33px;
+    height: 121.93px;
+    margin: auto;
+}
+
+.boton-conocer{
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    height: 41px;
+    width: 174px;
+    color: #652BDF;
+    font-weight: 800;
+    margin-left: 100px;
+}
+
+.boton-conocer:hover{
+    background-color: #000000;
+    transition: 300ms ease-in-out;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.titulo-banner{
+    color: #360C72;
+    font-size: 30px;
+}
+
+
+.parrafo-banner{
+    color: #360C72;
+    width: 500px;
+    font-size: 18px;
+}
+
+/* 
+secion del medio formas de cobrar 
+*/
+.seccion-cobros{
+    text-align: center;
+    gap: 32px;
+    width: 886.33px;
+    height: 121.93px;
+    margin: auto;
+}
+.titulo-cobros{
+    font-size: 40px;
+    color: #2b2b2b;
+}
+
+.separador{
+    height: 43px;
+    width: 930px;
+    margin: 0px;
+}
+
+.contenedor-qr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 334px;
+    width: 1465px;
+    padding: 50px 22px;
+    margin: 0 auto; 
+    gap: 32px;
+}
+
+.seccion-qr{
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+    flex-direction: column;
+    height: 179px;
+    width: 424px;
+}
+
+.titulo-qr{
+    font-size: 24px;
+    color:#2b2b2b;
+}
+
+.descripcion-qr{
+    font-size: 18px;
+    color: #2b2b2b;
+}
+
+.Conocer-mas{
+    width: 105px;
+    height: 21px;
+    color:#360C72;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    font-weight: 600 ;
+}
+
+.Conocer-mas:hover{
+    text-decoration: underline;
+    color: #5e1bbd;
+}
+
+
+.boton-conocer-chebron{
+    display: flex;
+    height: 25px;
+    width: 145px;
+}
+
+.qr-nave{
+    height: 269px;
+    width: 432px;
+    transition: 300ms ;
+    z-index: 1;
+}
+
+.qr-nave:hover{
+    background-color: #ffffff;
+    transform: scale(1.05);
+    transition: 300ms ;
+}
+
+/* 
+esta parte es el footer 
+
+*/
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 1022px;
+    height: 308px;
+    margin: auto;
+}
+
+.footer-logo{
+    width: 1000px;
+    height: 44px;
+}
+
+.footer-section{
+    display: flex;
+    width: 1000px;
+    height: 308px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.primer-columna{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 152px;
+    gap: 8px;
+}
+
+.titilo-columna{
+    font-size: 16px;
+}
+
+.segunda-columna{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 152px;
+    gap: 8px;
+}
+
+.tercera-columna{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 152px;
+    gap: 8px;
+}
+
+.cuarta-columna{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 152px;
+    gap: 8px;
+}
+
+.enlace{
+    font-size: 14px;
+    color: #2B2B2B;
+}
+
+.enlace:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px){
+    .header-logo-movile{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-mobile{
+        display: block;
+        right: auto;
+    }
+
+
+
+    .header-section{
+        display: none;
+        width: 768px;
+        height: 73px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contenedor-qr{
+        width: 768px;
+        margin: auto;
+        
+    }
+    .nave-banner{
+        width: 768px;
+    }
+    .boton-conocer{
+        margin: 0px;
+    }
+    .parrafo-banner{
+        width: 450px;
+    }
+    .titulo-cobros{
+        width: 768px;
+    }
+    .separador{
+        width: 768px;
+    }
+    .footer-section{
+        width: 768px;
+        margin: 15px;
+    }
+    .footer-logo{
+        width: 768px;
+    }
+    .footer{
+        width: 768px;
+    }
+    .body{
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .tarjetas__caracteristicas{
+        flex-direction: row;
+        gap: 16px;
+        
+    }
+}
+
+@media screen and (min-width: 990px){}
+    .titulo{ 
+        font-size: 40px;
+    }
+
+    .subtitulo{
+        font-size: 24px;
+    }
+
+    .bienvenida__parrafo{
+        font-size: 18px;
+    }
+
+    .bienvenida{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .conenido-seccion{
+        display: flex;
+        flex-direction: column;
+        width: 1022px;
+    }
