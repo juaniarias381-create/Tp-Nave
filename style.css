@@ -595,25 +595,29 @@ esta parte es el footer
 
 @media screen and (max-width: 1024px){
     .contenedor-qr{
-        width: 1000px;
+        max-width: 1000px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 1024px){
     .contenedor-qr{
-        width: 1000px;
+        max-width: 1000px;
+        width: 100%;
     }
 }
 
 
 @media screen and (max-width: 920px){
     .contenedor-qr{
-        width: 1000px;
+        max-width: 1000px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px){
     .contenedor-qr{
-        width: 270px;
+        max-width: 270px;
+        width: 100%;
     }
 }
