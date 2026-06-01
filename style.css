@@ -621,3 +621,10 @@ esta parte es el footer
         width: 100%;
     }
 }
+
+@media screen and (max-width: 412px){
+    .contenedor-qr{
+        max-width: 270px;
+        width: 100%;
+    }
+}
