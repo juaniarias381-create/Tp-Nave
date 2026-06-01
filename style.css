@@ -619,23 +619,23 @@ esta parte es el footer
 
 @media screen and (max-width: 412px){
     .contenedor-qr{
-        max-width: 270px;
+        max-width: 340px;
         width: 100%;
     }
 }
 @media screen and (min-width: 412px){
     .contenedor-qr{
-        max-width: 270px;
+        max-width: 340px;
         width: 100%;
-    }
-    .seccion-qr{
-        width: 350px;
     }
 }
 
 @media screen and (max-width: 360px){
     .contenedor-qr{
-        max-width: 270px;
+        max-width: 340px;
         width: 100%;
+    }
+        .seccion-qr{
+        width: 350px;
     }
 }
