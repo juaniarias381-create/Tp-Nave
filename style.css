@@ -604,3 +604,16 @@ esta parte es el footer
         width: 1000px;
     }
 }
+
+
+@media screen and (max-width: 920px){
+    .contenedor-qr{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .contenedor-qr{
+        width: 270px;
+    }
+}
