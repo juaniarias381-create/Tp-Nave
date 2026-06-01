@@ -21,9 +21,8 @@
 
 body{
     background-color: rgb(255, 255, 255);
-    max-width: 2000px;
+    max-width: 2560px;
     margin: auto;
-
 }
 
 
@@ -263,7 +262,7 @@ secion del medio formas de cobrar
 .separador{
     height: 43px;
     width: 930px;
-    margin: 0px;
+    margin: auto;
 }
 
 .contenedor-qr{
@@ -271,7 +270,7 @@ secion del medio formas de cobrar
     align-items: center;
     justify-content: center;
     height: 334px;
-    max-width: 1440px;
+    width: 1465px;
     padding: 50px 22px;
     margin: 0 auto; 
     gap: 32px;
@@ -408,18 +407,21 @@ esta parte es el footer
         display: block;
         align-items: center;
         justify-content: center;
+        position: absolute;
     }
     .menu-mobile{
         display: block;
-        right: auto;
+        margin-right: auto;
     }
 
-
+    .Nave-Header{
+        position: relative;
+        position: sticky;
+    }
 
     .header-section{
         display: none;
-        max-width: 768px;
-        width: 100%;
+        width: 768px;
         height: 73px;
     }
 }
@@ -483,14 +485,6 @@ esta parte es el footer
     }
 }
 
-@media screen and (min-width: 768px) {
-    .resolucion{
-        max-width: 768px;
-        width: 100%;
-        margin: auto;
-        align-items: center;
-    }
-}
 
 
 
@@ -528,6 +522,5 @@ esta parte es el footer
         width: 1022px;
     }
     
-
 
 
