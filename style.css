@@ -446,11 +446,6 @@ esta parte es el footer
     }
 }
 
-
-
-
-
-
 @media screen and (min-width: 768px) {
     .tarjetas__caracteristicas{
         flex-direction: row;
@@ -623,6 +618,19 @@ esta parte es el footer
 }
 
 @media screen and (max-width: 412px){
+    .contenedor-qr{
+        max-width: 270px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 412px){
+    .contenedor-qr{
+        max-width: 270px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px){
     .contenedor-qr{
         max-width: 270px;
         width: 100%;
