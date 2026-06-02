@@ -661,3 +661,124 @@ esta parte es el footer
         width: 100%;
     }
 }
+
+
+
+@media screen and (max-width: 548px){
+    .nave-banner{
+        max-width: 548px;
+        width: 100%;
+    }
+        .contenedor-qr{
+        max-width: 200px;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .seccion-qr{
+        max-width: 548px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .nave-banner{
+        max-width: 500px;
+        width: 100%;
+    }
+        .contenedor-qr{
+        max-width: 200px;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .seccion-qr{
+        max-width: 500px;
+        width: 100%;
+    }
+    .qr-nave{
+        width: 348px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .nave-banner{
+        max-width: 550px;
+        width: 100%;
+    }
+        .contenedor-qr{
+        max-width: 200px;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .seccion-qr{
+        max-width: 500px;
+        width: 100%;
+    }
+    .qr-nave{
+        width: 348px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .nave-banner{
+        max-width: 580px;
+        width: 100%;
+    }
+        .contenedor-qr{
+        max-width: 200px;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .seccion-qr{
+        max-width: 500px;
+        width: 100%;
+    }
+    .qr-nave{
+        width: 348px;
+    }
+}
+
+@media screen and (max-width: 968px){
+    .separador{
+        max-width: 900px;
+        width: 100%;
+    }
+    .nav-funtion{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .separador{
+        max-width: 700px;
+        width: 100%;
+    }
+    .nav-funtion{
+        width: 350px;
+    }
+    .seccion-cobros{
+        max-width: 700px;
+        width: 100%;
+    }
+    .boton-conocer{
+        margin: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 840px){
+    .separador{
+        max-width: 700px;
+        width: 100%;
+    }
+    .nav-funtion{
+        width: 350px;
+    }
+    .seccion-cobros{
+        max-width: 700px;
+        width: 100%;
+    }
+    .boton-conocer{
+        margin: 10px;
+    }
+    
+}
