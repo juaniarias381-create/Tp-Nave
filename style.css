@@ -127,10 +127,6 @@ body{
 
 
 
-
-/* 
-prueba de Te damos la bienvenida al vuelo de tu negocio
-*/
 .titulo{
     text-align: center;
     font-size: 30px;
@@ -197,10 +193,6 @@ prueba de Te damos la bienvenida al vuelo de tu negocio
 
 
 
-/* 
-prueba de banner 
-*/
-
 .nave-banner{
     display: flex;
     align-items: center;
@@ -245,9 +237,8 @@ prueba de banner
     font-size: 18px;
 }
 
-/* 
-secion del medio formas de cobrar 
-*/
+
+
 .seccion-cobros{
     text-align: center;
     gap: 32px;
@@ -332,10 +323,6 @@ secion del medio formas de cobrar
     transition: 300ms ;
 }
 
-/* 
-esta parte es el footer 
-
-*/
 
 .footer-logo{
     max-width: 1000px;
